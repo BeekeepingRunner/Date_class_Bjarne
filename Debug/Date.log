@@ -1,0 +1,5 @@
+﻿  Date.cpp
+Date.obj : error LNK2019: unresolved external symbol "public: __thiscall Chrono::Date::Date(int,enum Chrono::Month,int)" (??0Date@Chrono@@QAE@HW4Month@1@H@Z) referenced in function _main
+Date.obj : error LNK2019: unresolved external symbol "public: void __thiscall Chrono::Date::add_day(int)" (?add_day@Date@Chrono@@QAEXH@Z) referenced in function _main
+Date.obj : error LNK2019: unresolved external symbol "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl Chrono::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Chrono::Date const &)" (??6Chrono@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV12@ABVDate@0@@Z) referenced in function _main
+D:\Dev\C++\Programming_principles_Bjarne\Date\Date\Debug\Date.exe : fatal error LNK1120: 3 unresolved externals
